@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+
+    <div>
+        <h1>HTML</h1>
+    </div>
+
+    <div>
+        <h2>Form</h2>
+    </div>
+
+
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="./styles.css">
+
+        <!--Link de navegação-->
+        <div class="link1">
+            <h4>Link:
+                <a class="link" target="_blank"
+                href="http://berp.com.br/2.0/">http://berp.com.br/2.0/</a>
+            </h4>
+        </div>
+
+
+
+    <div class="paragraf">
+        <p>
+            Formulários são recursos com campos preenchíveis utilizados para coleta de dados. Como instrumentos de
+            armazenamento (como no caso dos formulários impressos), são de grande importância para a sistematização de
+            informações, principalmente em empresas de grande porte. É através deles que serão possíveis pesquisas e
+            documentação de dados de clientes, pacientes, materiais, etc. Em empresas com grande quantidade de funcionários,
+            quem cuida deles, geralmente, é a área de Processos (apoiada por algum profissional ou setor que possa
+            diagramá-los e padronizá-los visualmente) - ou, então, o próprio setor de Comunicação. Formulários, além de
+            funcionarem como uma ponte entre o usuário (ou cliente) e a empresa, são, também, parte integrante de um
+            conjunto de técnicas que tem como objetivo otimizar o funcionamento das instituições.
+        </p>
+
+        <p>
+            Planos – São formulários impressos em papel, com campos, espaços, linhas e outros recursos destinados a serem
+            preenchidos por pessoas.
+            Contínuos – São formulários destinados ao preenchimento por impressoras de computador (também em papel), em
+            grande escala.
+            Eletrônicos – São formulários que devem ser preenchidos no computador, seja em editores de texto rico (como por
+            exemplo, formulários feitos no MS Word / OpenOffice), em aplicativos específicos como o da Declaração de Imposto
+            de Renda da Receita Federal, pela internet (como os formulários de contato/e-mail, de cadastro e de chat, em
+            websites) ou em comunicadores instantâneos como o Whatsapp.
+        </p>
+    </div>
+</head>
+
+<body>
+
+    <div>
+        <div class="line1"></div>
+
+
+        <div class="mayor">
+                    <!--Formulário-->
+                    <form>
+                        <!--Nome-->
+                        <div>
+                            <br>
+                            <label class="label1" for="name">Nome:</label>
+                            <input type="text" required placeholder="Insira seu nome" class="entry" id="name"/>
+                        </div>
+
+                        <!--Email-->
+                        <div>
+                            <br>
+                            <label class="label1" for="email">Email:</label>
+                            <input type="email" required placeholder="Insira seu email" class="entry" id="email"/>
+                        </div>
+
+                        <!--Senha-->
+                        <div>
+                            <br>
+                            <label class="label1" for="entry">Senha:</label>
+                            <input type="password" required placeholder="Insira sua senha" class="entry" id="entry"/>
+                        </div>
+
+                        <!--Idade-->
+                        <form>
+                            <br>
+                            <label class="label1" for="age">Idade:</label>
+                            <input type="number" required placeholder="Insira sua idade" class="entry" id="age"/>
+                        </div>
+
+                        <!--Data de entrada-->
+                        <div>
+                            <br>
+                            <label class="label1" for="date">Data de Entrada:</label>
+                            <input type="date" required class="entry" id="date"/>
+                        </div>
+
+                        <!--Checkbox-->
+                        <div>
+                            <br>
+                            <label class="label1" for="checked">Checked:</label>
+                            <input type="checkbox" checked class="checked" id="checked"/>
+                        </div>
+
+                        <!--Listas não ordenadas-->
+                        <div>
+                            <ul>
+                                <dl>
+                                    <li class="list">-Pão</li>
+                                    <li class="list">-Café</li>
+                                    <li class="list">-Ovos</li>
+                                </dl>
+                            </ul>
+                        </div>
+
+                        <!--Tabela-->
+                        <div>
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th class="info">Nome</th>
+                                        <th class="info2">Idade</th>
+                                        <th class="info3">Cidade</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="info-table">
+                                        <td class="table-row">Yarlei</td>
+                                        <td class="table-row">15</td>
+                                        <td class="table-row">Fortaleza</td>
+                                    </tr>
+                                    <tr class="info-table2">
+                                        <td class="table-row">Roberio</td>
+                                        <td class="table-row">43</td>
+                                        <td class="table-row">Fortaleza</td>
+                                    </tr>
+                                    <tr class="info-table3">
+                                        <td class="table-row">Nana</td>
+                                        <td class="table-row">53</td>
+                                        <td class="table-row">Fortaleza</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <div class="rodape">
+                                <tfoot>
+                                    Informações
+                                </tfoot>
+                            </div>
+
+                            <div class="line2"></div>
+                        </div>
+                </form>
+                <!--Fim do formulário-->
+        </div>
+
+        <!--Selects-->
+        <div>
+            <label class="label2">Selects:</label>
+            <select class="select">
+                <option>ㅤ</option>
+                <option>Pão</option>
+                <option>Café</option>
+                <option>Ovos</option>
+            </select>
+        </div>
+
+        <!--Mensagem-->
+        <div>
+            <label class="message-box">Mensagem:</label>
+            <textarea cols="20" rows="2" class="txtarea"></textarea>
+        </div>
+
+        <!--Botão-->
+        <div>
+            <button type="submit" class="select">Enviar</button>
+        </div>
+    </div>
+</body>
+</html>

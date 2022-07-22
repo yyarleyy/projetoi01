@@ -1,0 +1,152 @@
+body{
+    background-color: #1C0817;
+    border: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    color: #FFFFFF;
+}
+body h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+}
+
+.container{
+    width: 90%;
+    margin: 5% auto 0 auto;
+    min-height: 130px;
+}
+.container .yarley-17{
+    width: 100%;
+}
+.container .yarley-17 .line-left{
+    width: 50%;
+    float: left;
+    margin-bottom: 16px;
+}
+.container .yarley-17 .line-left label{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container .yarley-17 .line-left input{
+    width: 95%;
+    border: 1px solid #D40D2E;
+    border-radius: 3px;
+    background-color: transparent;
+    padding-left: 5px;
+    height: 30px;
+    color: #FFFFFF;
+}
+.container .yarley-17 .line-left input:active{
+    border-radius: 3px;
+    background-color: #840A1C;
+    border: 1px solid #2B1F57;
+}
+.container .yarley-17 .line-left input:hover{
+    border-radius: 3px;
+    background-color: #840A1C;
+    border: 1px solid #2B1F57;
+}
+
+.container .yarley-17 .line-right{
+    float: right;
+    min-width: 50%;
+    margin-bottom: 16px;
+}
+.container .yarley-17 .line-right label{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container .yarley-17 .line-right input{
+    height: 30px;
+    width: 95%;
+    border-radius: 3px;
+    background-color: transparent;
+    padding-right: 5px;
+    color: #FFFFFF;
+    border: 1px solid #D40D2E;
+}
+.container .yarley-17 .line-right input:active{
+    border-radius: 3px;
+    background-color: #840A1C;
+    border: 1px solid #2B1F57;
+}
+.container .yarley-17 .line-right input:hover{
+    border-radius: 3px;
+    background-color: #840A1C;
+    border: 1px solid #2B1F57;
+}
+button{
+    float: right;
+    border: 1px solid #D40D2E;
+    background-color: transparent;
+    color: #FFFFFF;
+    height: 35px;
+    width: 150px;
+    margin-right: 13px;
+    font-size: 16px;
+    border-radius: 3px;
+    outline: none;
+}
+button:hover{
+    border: 1px solid #2B1F57;
+    background-color: #840A1C;
+    color: #FFFFFF;
+    border-radius: 3px;
+    outline: none;
+}
+.container-table{
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.container-table table, th, tr, tfoot > tr > td{
+    border: 1px solid #D40D2E;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container-table table{
+    width: 100%;
+}
+.container thead{
+    text-align: center;
+    font-size: 17px;
+    width: 100px;
+    height: 40px;
+}
+.container table thead th {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #D40D2E;
+}
+.container-table table tbody{
+    text-align: center;
+}
+.container-table table tbody tr{
+    width: 100px;
+    height: 40px;
+    border: 1px solid #D40D2E;
+}
+.container-table table tbody tr:nth-child(2n){
+    background-color: #840A1C;
+}
+.container-table table tbody tr:hover > td{
+    border: 1px solid #181818;
+    background-color: #D40D2E;
+}
+.container-table tfoot{
+    width: 100px;
+    height: 40px;
+    border-bottom: 1px solid #D40D2E;
+    text-align: center;
+    font-size: 17px;
+}
+.sb{
+    border-bottom: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
